@@ -1,3 +1,5 @@
+""""manejo para crar archivos csv"""
+
 import csv
 with open("./ejemplos/datos.csv", "w", newline="") as archivo:
     escritor = csv.writer(archivo)
