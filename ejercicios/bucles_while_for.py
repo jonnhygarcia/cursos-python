@@ -63,5 +63,5 @@ for i in range(1, 11):
 # marcador pass, por si aun un codigo o bucle no esta terminado y quieres que sigua funcionando sin errores mientras decides como continuarlo en esa parte, y puedes seguir con el resto del codigo, muy util.
 for i in range(5):
     pass  # Aqui puedes implementar la logica mas tarde
-else:
-    print("Bucle terminado, pero la logica no esta implementada aun.")
+else: # se evita mensaje de error, y dar mensaje de "estamos en obras" o segurir con el resto de codigo/bucle.
+    print("Bucle terminado, pero la logica no esta implementada aun.") 

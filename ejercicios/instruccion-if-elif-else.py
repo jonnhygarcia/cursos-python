@@ -42,7 +42,7 @@ else:
     print("No reconozco ese clima")
     
 
-""" otro ejemplo complejo"""
+""" otro ejemplo complejob de condicionales"""
 
 dia = input("introduce el dia de la semana: ").lower()
 

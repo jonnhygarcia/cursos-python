@@ -18,4 +18,3 @@ mi_lista.pop()  # Elimina el último elemento, mi_lista ahora es [1, 2, 3]
 # Longitud de una lista
 print(len(mi_lista))  # Salida: 3
 
-contador = 0 while contador < 3: print(contador) contador += 1 
