@@ -4,6 +4,9 @@
 #import numpy as np
 #import matplotlib.pyplot as plt
 # 1. Recopilación de datos: Cargar datos desde un archivo CSV
-datos = pd.read_csv('./ejemplos/datos.csv')
-print("Datos recopilados:")
-print(datos.head()) # Muestra las primeras filas del DataFrame
+
+#import pandas as pd
+
+datos = pd.DataFrame({"nombre": ["Ana", "Luis", None], "edad": [25, None, 30]})
+datos = datos.dropna()
+print(datos)
