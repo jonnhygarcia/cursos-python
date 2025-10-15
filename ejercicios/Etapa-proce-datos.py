@@ -7,6 +7,6 @@
 
 #import pandas as pd
 
-datos = pd.DataFrame({"nombre": ["Ana", "Luis", None], "edad": [25, None, 30]})
-datos = datos.dropna()
-print(datos)
+#datos = pd.DataFrame({"nombre": ["Ana", "Luis", None], "edad": [25, None, 30]})
+#datos = datos.dropna()
+#print(datos)
