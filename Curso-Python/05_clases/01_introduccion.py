@@ -8,5 +8,5 @@ print(type(mensaje))
 # Clases: el plano de construccion
 # objetos: la casa ya construida
 
-# Clase: Humano
+# Clase: Humanos.
 # Objeto: Nicolas, Felipe, Maria, Juan...
