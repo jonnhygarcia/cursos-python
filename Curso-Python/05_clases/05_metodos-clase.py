@@ -8,7 +8,13 @@ class Perro:
     @classmethod
     def habla(cls):
         print(f"Guau!")
+
+    @classmethod
+    def factory(cls):
+        return cls("Chanchito Feliz", 4)
         
 Perro.habla()
 Perro1 = Perro("Chanchito", 2)
 perro2 = Perro("Felipe", 2)
+perro3 = Perro.factory()
+print(perro3.edad, perro3.nombre)
